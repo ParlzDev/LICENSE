@@ -1,0 +1,1177 @@
+========================================================================
+PARLZ OPEN SOURCE LICENSE (Version 1.9)
+PARLZ 开源许可证（版本 1.9）
+========================================================================
+
+Copyright (c) 2026 JGZ_YES / Zeng Zirui
+版权所有 (c) 2026 JGZ_YES / Zeng Zirui
+
+All rights reserved.
+保留所有权利。
+
+This license is an Open Source License.
+本许可证是开放源代码许可证。
+
+Anyone may freely use, modify, and distribute this software,
+including for commercial purposes.
+任何人可以自由使用、修改、分发本软件，包括商业用途。
+
+Derivative works must remain open source under the terms
+of this license.
+衍生作品必须继续以本许可证开源。
+
+
+========================================================================
+PART I — ENGLISH
+第一部分 — 英文
+========================================================================
+
+
+------------------------------------------------------------------------
+Article 1 Definitions
+------------------------------------------------------------------------
+
+1.1 "The Software"
+    means the source code, binary files, documentation,
+    configuration files, resource files, sample code,
+    test cases, and any part or derivative work thereof
+    attached to this license.
+
+1.2 "Derivative Work"
+    means any work based on all or part of the Software,
+    created through modification, translation, adaptation,
+    reorganization, extension, deletion, merging, linking,
+    or any other means.
+
+1.3 "Distribute"
+    means to provide the Software or its Derivative Work
+    to any third party in any form, including copying,
+    transmission, uploading, downloading, public release,
+    sharing, mirroring, packaging, integrated release,
+    or providing through network services or APIs.
+
+1.4 "Contribution"
+    means any code, documentation, translation, design,
+    suggestion, issue report, test case, patch, or any
+    other content you submit to the Software.
+
+1.5 "You"
+    means any individual or legal entity exercising
+    rights granted by this license.
+
+1.6 "Copyright Holder"
+    means the original author and any subsequent
+    copyright owner of the Software.
+
+1.7 "Corresponding Source"
+    means all source code required to generate, install,
+    run, and modify the Software or a Derivative Work,
+    including build scripts, configuration files, and
+    interface definitions.
+
+1.8 "Static Linking"
+    means incorporating the Software into a Derivative Work
+    in a manner that produces a single executable or
+    binary artifact, including but not limited to
+    compilation, static library linking, or code
+    generation that embeds the Software.
+
+1.9 "Dynamic Linking"
+    means incorporating the Software into a Derivative Work
+    as a separate library, module, or plugin loaded at
+    runtime, without embedding the Software's code into
+    the primary executable.
+
+1.10 "Network Service"
+     means providing the Software or a Derivative Work
+     to third parties as a hosted service, API, or
+     software-as-a-service, where users interact with
+     the Software over a network but do not receive
+     a copy of the Software itself.
+
+1.11 "Optional AI Clause"
+     means the additional provisions set out in
+     Article 20, which the Copyright Holder may
+     elect to apply to the Software by including
+     a notice in the Software's documentation.
+
+
+------------------------------------------------------------------------
+Article 2 Granted Rights
+------------------------------------------------------------------------
+
+Subject to all terms of this license, the Copyright Holder
+grants you the following worldwide, non-exclusive, free,
+non-transferable, revocable rights:
+
+2.1 View and Read
+    You may view, read, and study the source code
+    of the Software.
+
+2.2 Copy
+    You may copy all or part of the Software
+    for any purpose.
+
+2.3 Modify
+    You may modify the Software and create Derivative
+    Works for any purpose.
+
+2.4 Distribute
+    You may distribute the Software and its Derivative
+    Works, in source or binary form.
+
+2.5 Commercial Use
+    You may use the Software or Derivative Works for
+    commercial purposes, including sale, integration
+    into commercial products, and providing
+    commercial services.
+
+2.6 Patent Use
+    You may practice the patent claims covered by the
+    Software, but only to the extent necessary to
+    practice the Software or Derivative Works.
+
+
+------------------------------------------------------------------------
+Article 3 Basic Obligations
+------------------------------------------------------------------------
+
+3.1 Include License
+    When distributing the Software or Derivative Works,
+    you must include the full text of this license.
+    It may not be deleted, modified, or replaced.
+
+3.2 Retain Copyright Notice
+    You must retain all copyright notices, author
+    attributions, license notices, and rights notices
+    in the Software. They may not be deleted or hidden.
+
+3.3 Mark Modifications
+    When distributing a modified version, you must
+    clearly indicate:
+    (a) what you modified;
+    (b) the date of modification;
+    (c) the identity of the modifier (optional).
+
+3.4 No Implied Endorsement
+    You may not imply that the Software or Derivative
+    Works have any commercial cooperation, sponsorship,
+    endorsement, or affiliation with the Copyright
+    Holder, unless you have prior written permission.
+
+
+------------------------------------------------------------------------
+Article 4 Tiered Copyleft Obligations
+------------------------------------------------------------------------
+
+This article defines the open source obligations for
+different usage scenarios. The obligations vary based
+on how the Software is incorporated into a Derivative Work.
+
+4.1 Static Linking — Full Copyleft
+    (a) If you distribute a Derivative Work that
+        incorporates the Software through Static Linking,
+        the entire Derivative Work must be licensed
+        under PARLZ and its Corresponding Source must
+        be made public.
+    (b) This is the strongest form of copyleft obligation
+        under this license.
+
+4.2 Dynamic Linking — Moderate Copyleft
+    (a) If you distribute a Derivative Work that
+        incorporates the Software through Dynamic
+        Linking, the Derivative Work's own code may
+        remain under a different license, provided:
+        (i) the Software itself remains under PARLZ;
+        (ii) any modifications to the Software are
+             open sourced under PARLZ;
+        (iii) the Derivative Work does not impose
+              restrictions on the Software that
+              conflict with this license.
+    (b) This allows Dynamic Linking of PARLZ libraries
+        into otherwise differently-licensed software,
+        reducing friction for library usage.
+
+4.3 Network Service — Light Copyleft
+    (a) If you provide the Software or a Derivative
+        Work as a Network Service, you must:
+        (i) make the Corresponding Source of any
+            modifications to the Software publicly
+            available;
+        (ii) not remove or alter the license notices.
+    (b) You are not required to open source the
+        entire service infrastructure, only
+        modifications to the Software itself.
+
+4.4 Internal Use — No Copyleft Obligation
+    (a) If you use the Software or a Derivative Work
+        solely for internal purposes and do not
+        Distribute it or provide it as a Network
+        Service, no copyleft obligation is triggered.
+    (b) Internal use includes development, testing,
+        staging, and production use within your
+        organization.
+
+
+------------------------------------------------------------------------
+Article 5 Patents
+------------------------------------------------------------------------
+
+5.1 Patent Grant
+    The Copyright Holder grants you a non-exclusive,
+    worldwide, royalty-free patent license to practice
+    the patent claims covered by the Software. This
+    grant is limited to patents necessary to practice
+    the Software or Derivative Works.
+
+5.2 No Patent Assertion
+    You may not use the Software or Derivative Works
+    to apply for patents, nor assert any patent rights
+    based on the Software or Derivative Works.
+
+5.3 Defensive Patent Termination
+    (a) If you file a patent lawsuit against the
+        Copyright Holder or other users, claiming
+        that the Software or Derivative Works
+        infringe your patent rights, this license
+        automatically terminates for YOU.
+    (b) This termination does not affect other users
+        who have not filed such lawsuits.
+    (c) If you are sued for patent infringement by
+        a third party and merely defend yourself,
+        this license is not terminated.
+
+
+------------------------------------------------------------------------
+Article 6 Trademarks
+------------------------------------------------------------------------
+
+6.1 No Trademark Grant
+    This license does not grant any trademark,
+    trade name, service mark, or brand rights.
+
+6.2 No Implied Endorsement
+    You may not use the Copyright Holder's name,
+    trademark, logo, brand, or domain for promotion
+    or to imply endorsement, unless you have prior
+    written permission.
+
+6.3 Fair Use
+    You may mention the name of the Software within
+    the scope of fair use, such as stating "based on
+    PARLZ" or "compatible with PARLZ", but you may
+    not imply official recognition or partnership.
+
+
+------------------------------------------------------------------------
+Article 7 Contributions
+------------------------------------------------------------------------
+
+7.1 Contribution Grant
+    Any Contribution you submit to the Software is
+    deemed your agreement that the Contribution is
+    subject to this license, and you grant the
+    Copyright Holder a perpetual, worldwide,
+    non-exclusive, free, irrevocable right to use,
+    modify, distribute, and sublicense it.
+
+7.2 Contributor Warranties
+    You warrant that your Contribution:
+    (a) is original or you have the right to submit it;
+    (b) does not infringe any third party's
+        intellectual property;
+    (c) does not contain illegal, harmful, or
+        malicious content;
+    (d) does not contain unauthorized third-party code.
+
+7.3 Contribution Ownership
+    Once adopted, the intellectual property of the
+    Contribution belongs to the Copyright Holder.
+
+7.4 No Obligation
+    The Copyright Holder has no obligation to review,
+    adopt, or respond to any Contribution.
+
+
+------------------------------------------------------------------------
+Article 8 Intellectual Property
+------------------------------------------------------------------------
+
+8.1 Ownership
+    All ownership, copyright, and other intellectual
+    property rights in the Software belong to the
+    Copyright Holder.
+
+8.2 Usage Right
+    This license grants only a right of use, not
+    any ownership.
+
+8.3 Reserved Rights
+    The Copyright Holder reserves all rights not
+    expressly granted.
+
+8.4 Derivative Works
+    The intellectual property of Derivative Works
+    belongs to their authors, but Derivative Works
+    remain subject to this license and must be
+    open source.
+
+
+------------------------------------------------------------------------
+Article 9 Disclaimer
+------------------------------------------------------------------------
+
+9.1 Provided "As Is"
+    The Software is provided "as is", without any
+    express or implied warranty.
+
+9.2 No Warranty Scope
+    Including but not limited to:
+    (a) merchantability;
+    (b) fitness for a particular purpose;
+    (c) non-infringement;
+    (d) accuracy, completeness, security;
+    (e) freedom from errors or defects;
+    (f) compatibility, performance, reliability.
+
+9.3 Assumption of Risk
+    You assume all risks of using the Software.
+
+9.4 No Damages
+    In no event shall the Copyright Holder be liable
+    for any direct, indirect, incidental, special,
+    punitive, or consequential damages arising from
+    the Software or its use, including but not limited
+    to:
+    (a) loss of profit;
+    (b) loss of data;
+    (c) business interruption;
+    (d) loss of goodwill;
+    (e) other economic loss.
+
+9.5 Types of Action
+    The above disclaimer applies to any type of
+    action, including contract, tort, strict liability,
+    or otherwise.
+
+
+------------------------------------------------------------------------
+Article 10 Limitation of Liability
+------------------------------------------------------------------------
+
+10.1 Liability Cap
+     To the maximum extent permitted by applicable law,
+     the Copyright Holder's total liability for the
+     Software shall not exceed the amount you paid
+     to obtain the Software, if any.
+
+10.2 Free Software
+     Since the Software is provided free of charge,
+     that amount is zero.
+
+10.3 Scope
+     This limitation applies to any form of claim,
+     including contract, tort, warranty, or otherwise.
+
+
+------------------------------------------------------------------------
+Article 11 Termination
+------------------------------------------------------------------------
+
+11.1 Automatic Termination
+     If you violate any term of this license, this
+     license automatically terminates.
+
+11.2 Obligations After Termination
+     After termination, you must:
+     (a) immediately stop using the Software and
+         Derivative Works;
+     (b) destroy all copies;
+     (c) stop distributing the Software and
+         Derivative Works.
+
+11.3 Surviving Terms
+     After termination, the provisions regarding
+     intellectual property, disclaimer, and limitation
+     of liability survive.
+
+11.4 Enforcement Rights
+     Termination does not affect the Copyright
+     Holder's right to pursue legal remedies.
+
+
+------------------------------------------------------------------------
+Article 12 Reinstatement After Termination
+------------------------------------------------------------------------
+
+12.1 Automatic Reinstatement Period
+     (a) If you violate this license, you have 60 days
+         from the date of violation to cure the
+         violation and reinstate your license
+         automatically.
+     (b) To cure, you must:
+         (i) stop all violating conduct;
+         (ii) restore compliance with this license;
+         (iii) notify the Copyright Holder in writing
+               of the cure.
+     (c) If you cure within 60 days, your license is
+         automatically reinstated as if the violation
+         had not occurred.
+     (d) This automatic reinstatement is available
+         only for the first violation.
+
+12.2 Discretionary Reinstatement
+     (a) If you fail to cure within 60 days, or if
+         you have previously cured a violation,
+         reinstatement requires the Copyright
+         Holder's written consent.
+     (b) The Copyright Holder may grant or deny
+         reinstatement at its sole discretion.
+
+12.3 No Retroactivity
+     Reinstatement does not retroactively cover
+     prior violations.
+
+
+------------------------------------------------------------------------
+Article 13 License Compatibility
+------------------------------------------------------------------------
+
+13.1 Compatible with Permissive Licenses
+     The Software may be combined with code under
+     permissive licenses such as MIT, Apache, and BSD.
+
+13.2 Combination with GPL
+     If you combine the Software with code under
+     strong copyleft licenses such as GPL, the
+     combined whole must comply with GPL.
+
+13.3 Compatibility Judgment
+     If you are unsure whether a license is
+     compatible, consult a legal professional.
+
+
+------------------------------------------------------------------------
+Article 14 Modification and Distribution
+------------------------------------------------------------------------
+
+14.1 Right to Modify
+     You may modify the Software, but modified
+     works remain subject to this license and
+     must be open source.
+
+14.2 Mark Modifications
+     When distributing a modified version, you
+     must indicate:
+     (a) modification content;
+     (b) modification date;
+     (c) modifier identity (optional).
+
+14.3 Retain Notices
+     You may not delete any copyright notice,
+     license notice, or rights notice in the Software.
+
+14.4 No Misrepresentation
+     You may not release modified versions under
+     the name of the Software without prior
+     written permission.
+
+14.5 Distribution Form
+     You may distribute in source or binary form,
+     but must include the full text of this license
+     and make the source code public.
+
+
+------------------------------------------------------------------------
+Article 15 No Warranty and No Support
+------------------------------------------------------------------------
+
+15.1 No Support Obligation
+     The Copyright Holder has no obligation to
+     provide any support, maintenance, updates,
+     upgrades, or bug fixes.
+
+15.2 No Response Obligation
+     The Copyright Holder has no obligation to
+     respond to any questions, requests, feedback,
+     or contributions.
+
+15.3 No Compatibility Obligation
+     The Copyright Holder has no obligation to
+     ensure compatibility with any other software,
+     hardware, or system.
+
+15.4 Assumption of Risk
+     The Software may contain errors, defects, or
+     incompleteness. You assume all risks of use.
+
+
+------------------------------------------------------------------------
+Article 16 Governing Law and Dispute Resolution
+------------------------------------------------------------------------
+
+16.1 Governing Law
+     This license is governed by the laws of China.
+
+16.2 Dispute Resolution
+     Disputes arising from this license shall be
+     submitted to the competent court in Shenzhen,
+     China.
+
+16.3 Language of Proceedings
+     Proceedings shall be conducted in Chinese.
+
+16.4 Attorney Fees
+     Unless otherwise provided by law, each party
+     bears its own attorney fees.
+
+
+------------------------------------------------------------------------
+Article 17 Severability
+------------------------------------------------------------------------
+
+17.1 Independent Provisions
+     If any provision of this license is held
+     invalid or unenforceable, it does not affect
+     the validity of the remaining provisions.
+
+17.2 Replacement Provision
+     If a provision is invalid, it shall be replaced
+     by a valid provision closest to the original
+     intent.
+
+17.3 Remaining Provisions
+     The remaining provisions continue in effect.
+
+
+------------------------------------------------------------------------
+Article 18 Entire Agreement
+------------------------------------------------------------------------
+
+18.1 Entire Agreement
+     This license constitutes the entire agreement
+     between you and the Copyright Holder regarding
+     the Software.
+
+18.2 Supersedes Prior Agreements
+     This license supersedes any prior oral or
+     written communications, commitments, or
+     agreements.
+
+18.3 Amendment
+     Amendments to this license require written
+     consent of the Copyright Holder.
+
+
+------------------------------------------------------------------------
+Article 19 License Version
+------------------------------------------------------------------------
+
+19.1 Current Version
+     This license is the PARLZ Open Source
+     License (Version 1.9).
+
+19.2 New Versions
+     The Copyright Holder may publish new versions.
+     New versions do not automatically apply to the
+     Software unless expressly stated.
+
+19.3 Continued Use
+     You may continue to use the Software under
+     the terms of this version.
+
+
+------------------------------------------------------------------------
+Article 20 Optional AI Clause
+------------------------------------------------------------------------
+
+This article applies only if the Copyright Holder
+includes a notice in the Software's documentation
+stating that the Optional AI Clause is enabled.
+
+20.1 Model Derivative Work
+     If the Optional AI Clause is enabled, a "Model
+     Derivative Work" means any model, weight,
+     parameter, embedding, or generative system
+     arising from:
+     (a) training using the Software as a training
+         framework, inference engine, or data
+         processing pipeline;
+     (b) fine-tuning, distillation, quantization,
+         pruning, or merging of the Software where
+         the Software itself is a model or weight;
+     (c) training on synthetic data generated by
+         the Software.
+
+20.2 Open Source Obligation
+     (a) If you distribute a Model Derivative Work,
+         you must make public:
+         (i) the model weights or parameters;
+         (ii) the training code used to produce
+              the model.
+     (b) You are not required to disclose training
+         data or data sources.
+     (c) Internal use of a Model Derivative Work
+         does not trigger this obligation.
+     (d) Inference-only use (no training or
+         fine-tuning) does not produce a Model
+         Derivative Work.
+
+20.3 Scope
+     This article applies only to the extent the
+     Optional AI Clause is enabled. If not enabled,
+     this article has no effect.
+
+
+------------------------------------------------------------------------
+Article 21 Miscellaneous
+------------------------------------------------------------------------
+
+21.1 Headings
+     Headings are for convenience only and do not
+     affect interpretation.
+
+21.2 Language
+     This license is written in Chinese and English.
+     In case of conflict, the Chinese version
+     prevails.
+
+21.3 Interpretation
+     This license shall be interpreted in accordance
+     with its purpose and intent, namely to allow
+     free use, modification, distribution, and
+     commercial use, while requiring Derivative
+     Works to remain open source under the tiered
+     obligations of Article 4.
+
+21.4 Effective
+     By using the Software, you are deemed to have
+     read, understood, and agreed to all terms of
+     this license.
+
+
+[Summary]
+You may view, learn, modify, and use the source
+commercially. Derivative works must remain open
+source, with obligations tiered by how the
+Software is incorporated.
+
+
+========================================================================
+PART II — 中文
+第二部分 — 中文
+========================================================================
+
+
+------------------------------------------------------------------------
+第一条 定义
+------------------------------------------------------------------------
+
+1.1 “本软件”
+    指本许可证所附的源代码、二进制文件、文档、配置文件、
+    资源文件、示例代码、测试用例及其任何部分和衍生作品。
+
+1.2 “衍生作品”
+    指基于本软件全部或部分内容，通过修改、翻译、改编、
+    重组、扩展、删减、合并、链接或其他任何方式产生的作品。
+
+1.3 “分发”
+    指以任何形式向第三方提供本软件或其衍生作品，
+    包括复制、传输、上传、下载、公开发布、共享、镜像、
+    打包、集成发布、通过网络服务或 API 对外提供等。
+
+1.4 “贡献”
+    指你向本软件提交的代码、文档、翻译、设计、建议、
+    问题报告、测试用例、补丁或其他任何内容。
+
+1.5 “你”
+    指行使本许可证所授予权利的任何个人或法人实体。
+
+1.6 “版权持有人”
+    指本软件的原始作者及后续版权所有者。
+
+1.7 “对应源代码”
+    指生成、安装、运行、修改本软件或衍生作品所需的
+    全部源代码，包括构建脚本、配置文件和接口定义。
+
+1.8 “静态链接”
+    指以产生单一可执行文件或二进制制品的方式，
+    将本软件并入衍生作品，包括但不限于编译、
+    静态库链接或嵌入本软件的代码生成。
+
+1.9 “动态链接”
+    指以运行时加载的独立库、模块或插件的方式，
+    将本软件并入衍生作品，而未将本软件代码
+    嵌入主可执行文件。
+
+1.10 “网络服务”
+     指以托管服务、API 或软件即服务的形式，
+     向第三方提供本软件或衍生作品，
+     用户通过网络与本软件交互，
+     但不获得本软件本身的副本。
+
+1.11 “可选 AI 条款”
+     指第二十条规定的附加条款。
+     版权持有人可在本软件文档中加入通知，
+     选择启用该条款。
+
+
+------------------------------------------------------------------------
+第二条 授予的权利
+------------------------------------------------------------------------
+
+在遵守本许可证全部条款的前提下，版权持有人授予你
+全球范围、非排他、免费、不可转让、可撤销的以下权利：
+
+2.1 查看与阅读
+    你可以查看、阅读、研究本软件的源代码。
+
+2.2 复制
+    你可以复制本软件的全部或部分内容，用于任何目的。
+
+2.3 修改
+    你可以修改本软件，创作衍生作品，用于任何目的。
+
+2.4 分发
+    你可以分发本软件及其衍生作品，
+    包括以源代码形式或二进制形式分发。
+
+2.5 商业使用
+    你可以将本软件或衍生作品用于商业目的，
+    包括销售、集成到商业产品、提供商业服务等。
+
+2.6 专利使用
+    你可以实施本软件所涉及的专利权利要求，
+    但仅限于实施本软件或衍生作品所必需的范围。
+
+
+------------------------------------------------------------------------
+第三条 基本义务
+------------------------------------------------------------------------
+
+3.1 附带许可证
+    分发本软件或衍生作品时，必须附带本许可证全文，
+    不得删除、修改或替换。
+
+3.2 保留版权声明
+    必须保留本软件中所有的版权声明、作者署名、
+    许可证声明和权利声明，不得删除或隐藏。
+
+3.3 标注修改
+    分发修改版本时，必须明确标注：
+    (a) 你修改了哪些内容；
+    (b) 修改的日期；
+    (c) 修改者的身份（可选）。
+
+3.4 不得暗示背书
+    不得暗示本软件或衍生作品与版权持有人存在
+    商业合作、赞助、背书或关联关系，
+    除非获得事先书面许可。
+
+
+------------------------------------------------------------------------
+第四条 分级 Copyleft 义务
+------------------------------------------------------------------------
+
+本条根据本软件被并入衍生作品的方式，
+定义不同的开源义务强度。
+
+4.1 静态链接 — 完全 Copyleft
+    (a) 若你分发通过静态链接并入本软件的衍生作品，
+        该衍生作品整体必须以 PARLZ 许可，
+        并公开其对应源代码。
+    (b) 这是本许可证下最强的 Copyleft 义务形式。
+
+4.2 动态链接 — 中等 Copyleft
+    (a) 若你分发通过动态链接并入本软件的衍生作品，
+        该衍生作品自身的代码可以保留其他许可证，
+        但必须满足：
+        (i) 本软件本身仍适用 PARLZ；
+        (ii) 对本软件的任何修改必须以 PARLZ 开源；
+        (iii) 衍生作品不得对本软件施加与本许可证
+              冲突的限制。
+    (b) 本条款允许将 PARLZ 库动态链接到
+        其他许可证的软件中，降低库使用摩擦。
+
+4.3 网络服务 — 轻度 Copyleft
+    (a) 若你将本软件或衍生作品作为网络服务提供，
+        你必须：
+        (i) 公开对本软件所做修改的对应源代码；
+        (ii) 不得删除或修改许可证声明。
+    (b) 你无需开源整个服务基础设施，
+        只需开源对本软件本身的修改。
+
+4.4 内部使用 — 无 Copyleft 义务
+    (a) 若你仅在内部使用本软件或衍生作品，
+        不对外分发，也不作为网络服务提供，
+        则不触发 Copyleft 义务。
+    (b) 内部使用包括组织内的开发、测试、
+        预发布和生产使用。
+
+
+------------------------------------------------------------------------
+第五条 专利
+------------------------------------------------------------------------
+
+5.1 专利授权
+    版权持有人授予你非排他、全球范围、免费的
+    专利许可，允许你实施本软件所涉及的专利权利要求。
+    该授权仅限于实施本软件或衍生作品所必需的专利。
+
+5.2 禁止专利主张
+    你不得将本软件或衍生作品用于申请专利，
+    也不得以本软件或衍生作品为基础主张任何专利权。
+
+5.3 防御性专利终止
+    (a) 若你对版权持有人或其他用户提起专利诉讼，
+        主张本软件或衍生作品侵犯你的专利权，
+        则本许可证仅对“你”自动终止。
+    (b) 该终止不影响未提起此类诉讼的其他用户。
+    (c) 若你被第三方起诉专利侵权而仅进行抗辩，
+        本许可证不终止。
+
+
+------------------------------------------------------------------------
+第六条 商标
+------------------------------------------------------------------------
+
+6.1 不授予商标权
+    本许可证不授予任何商标权、商号权、
+    服务标志权或品牌使用权。
+
+6.2 禁止暗示背书
+    你不得使用版权持有人的名称、商标、标识、
+    品牌或域名进行宣传、推广或暗示背书，
+    除非获得事先书面许可。
+
+6.3 合理使用
+    你可以在合理使用范围内提及本软件的名称，
+    如说明“基于 PARLZ 开发”或“兼容 PARLZ”，
+    但不得暗示官方认可或合作关系。
+
+
+------------------------------------------------------------------------
+第七条 贡献
+------------------------------------------------------------------------
+
+7.1 贡献授权
+    你向本软件提交的任何贡献，均视为你同意
+    该贡献适用本许可证，并授予版权持有人
+    永久、全球范围、非排他、免费、不可撤销的
+    使用、修改、分发和再许可的权利。
+
+7.2 贡献者保证
+    你保证你提交的贡献：
+    (a) 由你原创，或你有权提交；
+    (b) 不侵犯任何第三方的知识产权；
+    (c) 不包含任何违法、有害或恶意内容；
+    (d) 不包含任何未授权的第三方代码。
+
+7.3 贡献归属
+    贡献一经采纳，其知识产权归版权持有人所有。
+
+7.4 无义务
+    版权持有人没有义务审查、采纳或回应任何贡献。
+
+
+------------------------------------------------------------------------
+第八条 知识产权
+------------------------------------------------------------------------
+
+8.1 所有权
+    本软件的所有权、版权及其他知识产权均归
+    版权持有人所有。
+
+8.2 使用权
+    本许可证仅授予使用权，不授予任何所有权。
+
+8.3 保留权利
+    版权持有人保留所有未明确授予的权利。
+
+8.4 衍生作品
+    衍生作品的知识产权归衍生作品作者所有，
+    但衍生作品仍受本许可证约束，必须开源。
+
+
+------------------------------------------------------------------------
+第九条 免责声明
+------------------------------------------------------------------------
+
+9.1 按原样提供
+    本软件按“原样”提供，不提供任何明示或暗示的担保。
+
+9.2 无担保范围
+    包括但不限于：
+    (a) 对适销性的担保；
+    (b) 对特定用途适用性的担保；
+    (c) 对非侵权的担保；
+    (d) 对准确性、完整性、安全性的担保；
+    (e) 对无错误、无缺陷的担保；
+    (f) 对兼容性、性能、可靠性的担保。
+
+9.3 风险自负
+    你使用本软件的风险由你自行承担。
+
+9.4 无损害责任
+    在任何情况下，版权持有人均不对因本软件
+    或本软件的使用或其他交易而产生的任何
+    直接、间接、偶然、特殊、惩罚性或
+    后果性损害负责，包括但不限于：
+    (a) 利润损失；
+    (b) 数据丢失；
+    (c) 业务中断；
+    (d) 商誉损失；
+    (e) 其他经济损失。
+
+9.5 诉讼类型
+    上述免责适用于任何诉讼类型，包括合同诉讼、
+    侵权诉讼、严格责任或其他诉讼。
+
+
+------------------------------------------------------------------------
+第十条 责任限制
+------------------------------------------------------------------------
+
+10.1 责任上限
+     在适用法律允许的最大范围内，
+     版权持有人对本软件的全部责任
+     不超过你为获得本软件所支付的金额（如有）。
+
+10.2 免费软件
+     由于本软件免费提供，该金额为零。
+
+10.3 适用范围
+     本责任限制适用于任何形式的索赔，
+     包括合同、侵权、担保或其他。
+
+
+------------------------------------------------------------------------
+第十一条 终止
+------------------------------------------------------------------------
+
+11.1 自动终止
+     你违反本许可证任何条款的，本许可证自动终止。
+
+11.2 终止后的义务
+     终止后，你必须：
+     (a) 立即停止使用本软件和衍生作品；
+     (b) 销毁所有副本；
+     (c) 停止分发本软件和衍生作品。
+
+11.3 继续有效条款
+     终止后，本许可证中关于知识产权、免责声明、
+     责任限制的条款继续有效。
+
+11.4 追究权利
+     终止不影响版权持有人追究法律责任的权利。
+
+
+------------------------------------------------------------------------
+第十二条 终止后的恢复
+------------------------------------------------------------------------
+
+12.1 自动恢复期
+     (a) 若你违反本许可证，你有 60 天时间
+         从违约之日起纠正违约并自动恢复许可。
+     (b) 纠正违约须：
+         (i) 停止一切违反行为；
+         (ii) 恢复遵守本许可证；
+         (iii) 书面通知版权持有人已完成纠正。
+     (c) 若你在 60 天内完成纠正，
+         你的许可自动恢复，视为违约未发生。
+     (d) 该自动恢复仅适用于首次违约。
+
+12.2 酌情恢复
+     (a) 若你未在 60 天内纠正，
+         或你此前已纠正过一次违约，
+         恢复许可须获得版权持有人书面同意。
+     (b) 版权持有人可自行决定是否恢复。
+
+12.3 不追溯
+     恢复的许可不追溯既往的违约行为。
+
+
+------------------------------------------------------------------------
+第十三条 许可证兼容性
+------------------------------------------------------------------------
+
+13.1 兼容宽松许可证
+     本软件可以与 MIT、Apache、BSD 等
+     宽松许可证的代码结合使用。
+
+13.2 与 GPL 结合
+     若你将本软件与 GPL 等强 Copyleft 许可证的
+     代码结合使用，结合后的整体须遵守 GPL。
+
+13.3 兼容性判断
+     若你不确定某许可证是否兼容，
+     应咨询法律专业人士。
+
+
+------------------------------------------------------------------------
+第十四条 修改与分发
+------------------------------------------------------------------------
+
+14.1 修改权
+     你可以修改本软件，但修改后的作品
+     仍受本许可证约束，必须开源。
+
+14.2 标注修改
+     分发修改版本时，必须标注：
+     (a) 修改内容；
+     (b) 修改日期；
+     (c) 修改者身份（可选）。
+
+14.3 保留声明
+     不得删除本软件中的任何版权声明、
+     许可证声明或权利声明。
+
+14.4 不得冒名
+     不得以本软件的名义发布修改版本，
+     除非获得事先书面许可。
+
+14.5 分发形式
+     你可以以源代码形式或二进制形式分发，
+     但必须附带本许可证全文，并公开源代码。
+
+
+------------------------------------------------------------------------
+第十五条 无担保与无支持
+------------------------------------------------------------------------
+
+15.1 无支持义务
+     版权持有人没有义务为本软件提供任何支持、
+     维护、更新、升级或错误修复。
+
+15.2 无响应义务
+     版权持有人没有义务回应任何问题、
+     请求、反馈或贡献。
+
+15.3 无兼容性义务
+     版权持有人没有义务确保本软件与
+     任何其他软件、硬件或系统的兼容性。
+
+15.4 使用风险
+     本软件可能包含错误、缺陷或不完整之处，
+     使用风险由你自行承担。
+
+
+------------------------------------------------------------------------
+第十六条 法律适用与争议解决
+------------------------------------------------------------------------
+
+16.1 适用法律
+     本许可证适用中华人民共和国法律。
+
+16.2 争议解决
+     因本许可证产生的争议，应提交
+     中国深圳有管辖权的法院解决。
+
+16.3 诉讼语言
+     诉讼应以中文进行。
+
+16.4 律师费
+     除非法律另有规定，各方自行承担律师费。
+
+
+------------------------------------------------------------------------
+第十七条 可分割性
+------------------------------------------------------------------------
+
+17.1 条款独立
+     本许可证任何条款被认定无效或不可执行的，
+     不影响其余条款的效力。
+
+17.2 替代条款
+     若某条款无效，应以最接近原条款意图的
+     有效条款替代。
+
+17.3 其余条款
+     其余条款继续有效。
+
+
+------------------------------------------------------------------------
+第十八条 完整协议
+------------------------------------------------------------------------
+
+18.1 完整协议
+     本许可证构成你与版权持有人之间关于
+     本软件的完整协议。
+
+18.2 取代先前约定
+     本许可证取代此前任何口头或书面的沟通、
+     承诺或约定。
+
+18.3 修改
+     本许可证的修改须经版权持有人书面同意。
+
+
+------------------------------------------------------------------------
+第十九条 许可证版本
+------------------------------------------------------------------------
+
+19.1 当前版本
+     本许可证版本为 PARLZ Open Source License
+     (Version 1.9)。
+
+19.2 新版本
+     版权持有人有权发布新版本，
+     新版本不自动适用于本软件，
+     除非版权持有人明确声明。
+
+19.3 继续使用
+     你可以继续按本版本条款使用本软件。
+
+
+------------------------------------------------------------------------
+第二十条 可选 AI 条款
+------------------------------------------------------------------------
+
+本条仅在版权持有人于本软件文档中加入通知、
+声明启用“可选 AI 条款”时适用。
+
+20.1 模型衍生作品
+     若启用可选 AI 条款，“模型衍生作品”指
+     以下任一情形产生的模型、权重、参数、
+     嵌入或生成系统：
+     (a) 使用本软件作为训练框架、推理引擎或
+         数据处理管道而进行的训练；
+     (b) 本软件本身即为模型或权重，
+         对其微调、蒸馏、量化、剪枝或合并；
+     (c) 使用本软件生成的合成数据进行训练。
+
+20.2 开源义务
+     (a) 若你分发模型衍生作品，必须公开：
+         (i) 模型权重或参数；
+         (ii) 生成该模型的训练代码。
+     (b) 你不被要求公开训练数据或数据来源。
+     (c) 内部使用模型衍生作品不触发本义务。
+     (d) 仅推理使用（不训练、不微调）
+         不产生模型衍生作品。
+
+20.3 范围
+     本条仅在可选 AI 条款启用时适用。
+     未启用时，本条无效。
+
+
+------------------------------------------------------------------------
+第二十一条 附则
+------------------------------------------------------------------------
+
+21.1 标题
+     本许可证各条款标题仅为方便阅读，
+     不影响条款的解释。
+
+21.2 语言
+     本许可证以中文和英文撰写。
+     若有冲突，以中文版本为准。
+
+21.3 解释
+     本许可证的解释应遵循其目的和意图，
+     即允许自由使用、修改、分发、商用，
+     同时要求衍生作品按第四条的分级义务
+     继续开源。
+
+21.4 生效
+     你使用本软件即视为你已阅读、
+     理解并同意本许可证全部条款。
